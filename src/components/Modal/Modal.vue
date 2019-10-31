@@ -1,8 +1,7 @@
 <template>
 	<div
 		v-if="showModal"
-		class="container"
-		id="modal">
+		class="container">
 		<div class="modal__wrapper" @click="onBgClick">
 			<div class="modal" :class="state" @click="onModalClick">
 				<div class="modal__header" :class="isHeaderSpecial">
